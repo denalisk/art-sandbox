@@ -7,5 +7,10 @@
     "test": "test"
   },
   "author": "Sam Kirsch",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "lite-server": "^2.4.0",
+    "typescript": "^3.1.3"
+  }
 }

@@ -1,9 +1,9 @@
-var eventHandler = function () {
-    alert("Loaded");
-}
+import { DemoFunction } from "./test";
+
+var thing = new DemoFunction();
 
 if (document.readyState !== 'loading') {
-    eventHandler();
+    thing.triggerFunction();
 } else {
-    document.addEventListener('DOMContentLoaded', eventHandler);
+    document.addEventListener('DOMContentLoaded', thing.triggerFunction);
 }
